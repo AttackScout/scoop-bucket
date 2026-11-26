@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/AttackScout/attackscout-agent/releases/download/v0.2.0/attackscout-agent_0.2.0_windows_amd64.zip",
+            "bin": [
+                "attackscout-agent.exe"
+            ],
+            "hash": "197f2c55ec3bb4dcadc8babdf05ff9697d3d1c3b99b795bfff9728f23f44f74b"
+        },
+        "arm64": {
+            "url": "https://github.com/AttackScout/attackscout-agent/releases/download/v0.2.0/attackscout-agent_0.2.0_windows_arm64.zip",
+            "bin": [
+                "attackscout-agent.exe"
+            ],
+            "hash": "9b65f8b750d74fbc8721e273c30f960fd51065f5d4eafb83f19d2804a62ac772"
+        }
+    },
+    "homepage": "https://github.com/AttackScout/attackscout-agent",
+    "license": "MIT",
+    "description": "Read-only website security check from inside the server (CVE, KEV, end of life, exposed files)"
+}
